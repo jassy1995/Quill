@@ -1,27 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-    /* color-scheme: light dark; */
-    background-color: white;
-
-    font-synthesis: none;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust: 100%;
-}
-
-body {
-    margin: 0;
-    font-family: "Roboto", sans-serif;
-    /* font-size: 14px; */
-    font-size: 1.04rem;
-    font-weight: 400;
-}
-
-.form-control {
+.search-input {
     display: block;
     width: 100%;
     padding: 0.375rem 0.75rem;
@@ -33,10 +10,11 @@ body {
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
+    padding-left: 30px;
     transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
-.form-control:focus {
+.search-input:focus {
     color: #495057;
     background-color: #fff;
     border-color: #80bdff;
@@ -44,7 +22,7 @@ body {
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
-.form-control:disabled {
+.search-input:disabled {
     background-color: #e9ecef;
     opacity: 1;
 }

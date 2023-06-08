@@ -1,12 +1,13 @@
+import { Outlet } from '@tanstack/router';
+import Navbar from './components/navbar/Index';
 
 
 function App() {
 
   return (
-    <div className="italic container mx-auto text-slate-600 h-screen flex justify-center items-center">
-      <h1 className="text-5xl">
-        React & Vite & Tailwindcss
-      </h1>
+    <div className="w-full">
+      <Navbar />
+      <Outlet />
     </div>
   )
 }
