@@ -137,6 +137,4 @@ export const followers = [
         follows: 25,
         posts: 40
     },
-
-
 ]
